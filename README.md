@@ -18,25 +18,11 @@ Deep Learning Model in Keras is used for image classification on the Plant Patho
 ## Model
 A pre-trained MobileNet model is used.
 
-Model: "sequential"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param  
-=================================================================
-mobilenet_1.00_224 (Model)   (None, 7, 7, 1024)        3228864   
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 50176)             0         
-_________________________________________________________________
-dense_6 (Dense)              (None, 4)                 200708    
-=================================================================
-Total params: 3,429,572
-Trainable params: 200,708
-Non-trainable params: 3,228,864
-_________________________________________________________________
-
 Last epoch
 Epoch 00043: LearningRateScheduler reducing learning rate to 1e-05.
 Epoch 43/50
-280/280 [==============================] - ETA: 0s - loss: 0.0364 - accuracy: 0.9911Restoring model weights from the end of the best epoch.
+280/280 [==============================] - ETA: 0s - loss: 0.0364 - accuracy: 0.9911
+Restoring model weights from the end of the best epoch.
 280/280 [==============================] - 25s 89ms/step - loss: 0.0364 - accuracy: 0.9911 - val_loss: 0.6195 - val_accuracy: 0.8514 - lr: 1.0000e-05
 
 ## Model results
