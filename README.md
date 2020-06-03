@@ -33,4 +33,4 @@ Restoring model weights from the end of the best epoch.
 
 AUC score 0.5262953416252789
 
-Achieved a score of 0.90888 on leaderboard for the Kaggle competition.
+Achieved a score of 0.90888 on leaderboard for the Kaggle competition, on data the model has not seen.
