@@ -20,7 +20,7 @@ A pre-trained MobileNet model is used.
 
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param  
 =================================================================
 mobilenet_1.00_224 (Model)   (None, 7, 7, 1024)        3228864   
 _________________________________________________________________
